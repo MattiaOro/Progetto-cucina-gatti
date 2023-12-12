@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!-- CDN Icone -->
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style3-componenti-bootstrap.css">
+</head>
+
+<body>
+    <!-- !barretta di navigazione -->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 top-0">
+        <div class="container-fluid">
+            <img src="./media/purrito-burrito-con-gatto-adesivo.purrito.webp" alt="" class="purrito">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/index3-componenti-bootstrap.html#">L'angolo del
+                Purrito</a>
+
+
+
+
+            <!-- ** icona hamburger -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- ** elenco a tendina dell' hamburger -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class=" text-info nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-info nav-link" href="#">Foto di gatti buffi</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="text-info nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Altre opzioni
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Iscriviti</a></li>
+                            <li><a class="dropdown-item" href="#">Dicci la tua</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Contattaci</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cerca la tua ricetta</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ? Header -->
+    <Header class=" container-fluid ">
+        <div class="row vh-100 text-center align-items-end">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="bottone">
+                    <h1 class="text-info">I Consigli di Gatta Babuska</h1>
+                    <h2 class="text-info">Ricette saporite da tutto il mondo per i palati dei più schizzinosi.</h2>
+                    <i class="bi bi-egg-fried display-1 text-white"></i>
+                </div>
+
+
+            </div>
+        </div>
+    </Header>
+
+    <!-- ! contenuto principale -->
+    <main>
+
+        <!-- ? sezione 1 con foto e descrizione -->
+
+        <section class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-12 text-center my-5">
+                    <h2>Lorem, ipsum.</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="./media/consigli-benessere-salute-miagolio-gattini.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-md-6  mt-5 mt-md-1">
+                    <h5 class="prova">Lorem, ipsum.</h5>
+                    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores est accusamus dolorum ducimus
+                        quos quibusdam animi placeat suscipit maiores ratione reiciendis, a dolore asperiores maxime
+                        laborum expedita. Dolor, ipsam expedita!</div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ?Sezione 2 con 4 contenuti in cards-->
+
+
+
+        <div class="container my-5">
+            <div class="row justify-content-between top-5">
+
+                <!-- ** card 1 -->
+
+
+                <div class="col-6 col-md-3 ">
+                    <div class="card">
+                        <img src="./media/filetto pepe verde.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Filetto al pepe verde</h5>
+                            <p class="card-text">Un cibo raffinato per il palato delicato.</p>
+                            <a href="#" class="btn btn-primary">Guarda la ricetta!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ** Card 2 -->
+
+                <div class="col-6 col-md-2 ">
+                    <div class="card">
+                        <img src="./media/lasagne.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lasagne</h5>
+                            <p class="card-text">Dalla tavola delle nostre nonne a quella di casa propria.</p>
+                            <a href="#" class="btn btn-primary">Guarda la ricetta!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ** card 3 -->
+
+                <div class="col-6 col-md-2 ">
+                    <div class="card">
+                        <img src="./media/oshiruko-go.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Oshiruko</h5>
+                            <p class="card-text">Dal lontano oriente, una ricetta ricercata.</p>
+                            <a href="#" class="btn btn-primary">Guarda la ricetta!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ** Card 4 -->
+
+                <div class="col-6 col-md-2 ">
+                    <div class="card">
+                        <img src="./media/pasta noci.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasta con salsa di noci</h5>
+                            <p class="card-text">Dalla Liguria con furore</p>
+                            <a href="#" class="btn btn-primary">Guarda la ricetta!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <!--? Footer -->
+
+    <footer class="footer bg-warning">
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

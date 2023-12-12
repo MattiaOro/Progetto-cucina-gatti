@@ -1,0 +1,44 @@
+@media screen and (max-width:670px) {
+    .text-nav {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+}
+
+header {
+    background-image: url(./media/hl1phgm3bfn21.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.bottone {
+    background: radial-gradient(orange, red);
+    border-radius: 15px;
+    width: fit-content;
+}
+
+
+
+.footer {
+    height: 40vh;
+
+}
+
+.purrito {
+    width: 100px;
+    height: 100px;
+
+}
+
+.navbar{
+    background-color: #F2F2F2 !important;
+    z-index: 999vh;
+
+}
+
+.card{
+    height: 350px;
+}
